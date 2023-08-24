@@ -1,26 +1,29 @@
 #include "main.h"
 /**
- * _strncat - a function that concertenate two strings
+ * _strcat - concertenate two strings
  *
- * @dest: destination string
- * @src: source string
- * @n: no of element to concertenate from src
- * Return: dest + n of src
+ * @dest: the destination string
+ * @src: the source string
+ *
+ * Return: destination string (char *ptr)
  */
-char *_strncat(char *dest, char *src, int n)
+char *_strcat(char *dest, char *src)
 {
-	int len_dest, i;
+	int len1, len2, i;
 
-	for (len_dest = 0; dest[len_dest] != '\0'; len_dest++)
+	for (len1 = 0; dest[len1] != '\0'; len1++)
 	{
 
 	}
 
-	for (i = 0; src[i] != 0 && i < n; i++)
+	for (len2 = 0; src[len2] != '\0'; len2++)
 	{
-		dest[len_dest + i] = src[i];
-	}
 
+	}
+	for (i = 0; i <= len2; i++)
+	{
+		dest[len1 + i] = src[i];
+	}
 
 	return (dest);
 }
