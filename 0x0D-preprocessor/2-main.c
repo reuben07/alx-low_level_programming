@@ -1,11 +1,11 @@
-#include <sstdio.h>
+#include <stdio.h>
 /**
- * main - print file of source code
+ * main - print out file name of source code
  *
  * Return: int
  */
 int main(void)
 {
-	printf("%s\n". __FILE__);
+	printf("%s\n", __FILE__);
 	return (0);
 }
