@@ -1,11 +1,10 @@
-#define MARCO_H
-#ifndef MARCO_H
-
+#ifndef MACRO_H
+#define MACRO_H
 /**
-*file: 0-object_like_marco
-*
-*Desc: header file
-*/
+ * File: 0-object_like_macro
+ *
+ * Desc: header file
+ */
 #define SIZE 1024
 
 #endif
